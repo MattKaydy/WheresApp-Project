@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22A380" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Item" representedClassName="Item" syncable="YES">
+        <attribute name="credit_card_expiry_date" optional="YES" attributeType="String"/>
+        <attribute name="credit_card_name" optional="YES" attributeType="String"/>
+        <attribute name="credit_card_no" optional="YES" attributeType="String"/>
+        <attribute name="image_data" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="keywords" optional="YES" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="keywords_string" optional="YES" attributeType="String"/>
+        <attribute name="loc_langtitude" optional="YES" attributeType="String"/>
+        <attribute name="loc_longtitude" optional="YES" attributeType="String"/>
+        <attribute name="loc_string" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="nature" optional="YES" attributeType="String"/>
+        <attribute name="receipt_grand_total" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="receipt_item_names" optional="YES" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="receipt_item_prices" optional="YES" attributeType="Transformable" customClassName="[Decimal]"/>
+        <attribute name="receipt_location" optional="YES" attributeType="String"/>
+        <attribute name="receipt_name" optional="YES" attributeType="String"/>
+        <attribute name="receipt_time" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+</model>

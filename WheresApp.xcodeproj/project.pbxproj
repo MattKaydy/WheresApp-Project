@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		632A9D3D2A17F5DC00E7A594 /* CreditCardScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 632A9D3C2A17F5DC00E7A594 /* CreditCardScanner */; };
+		632DFAF22A238CDD0082AF9B /* CardsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632DFAF12A238CDD0082AF9B /* CardsListView.swift */; };
+		632DFAF42A24B0BA0082AF9B /* ReceiptsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632DFAF32A24B0BA0082AF9B /* ReceiptsListView.swift */; };
+		632DFAF72A24DB9B0082AF9B /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632DFAF52A24DB9B0082AF9B /* Item+CoreDataClass.swift */; };
+		632DFAF82A24DB9B0082AF9B /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632DFAF62A24DB9B0082AF9B /* Item+CoreDataProperties.swift */; };
+		633A39C62A2551EE0082DBEF /* ChronoParsedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A39C52A2551ED0082DBEF /* ChronoParsedResult.swift */; };
+		633A39C72A2551EE0082DBEF /* Chrono.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633A39C22A2551ED0082DBEF /* Chrono.swift */; };
+		633A39C82A2552D00082DBEF /* chrono.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 633A39C42A2551ED0082DBEF /* chrono.min.js */; };
+		63AE476329C23A2A00068E72 /* WheresAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE476229C23A2A00068E72 /* WheresAppApp.swift */; };
+		63AE476529C23A2A00068E72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE476429C23A2A00068E72 /* ContentView.swift */; };
+		63AE476729C23A2C00068E72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AE476629C23A2C00068E72 /* Assets.xcassets */; };
+		63AE476A29C23A2C00068E72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AE476929C23A2C00068E72 /* Preview Assets.xcassets */; };
+		63AE476C29C23A2D00068E72 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE476B29C23A2D00068E72 /* Persistence.swift */; };
+		63AE476F29C23A2D00068E72 /* WheresApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63AE476D29C23A2D00068E72 /* WheresApp.xcdatamodeld */; };
+		63AE478329C2558500068E72 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE478229C2558500068E72 /* ItemListView.swift */; };
+		63AE478529C271D000068E72 /* TaskAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AE478429C271D000068E72 /* TaskAddView.swift */; };
+		63E36D7A29CC0235007A4AD3 /* LocationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E36D7929CC0235007A4AD3 /* LocationDataManager.swift */; };
+		63E36D8C29CC312D007A4AD3 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E36D8B29CC312D007A4AD3 /* ViewRouter.swift */; };
+		FC0035A5AE91A1D892809614 /* Pods_WheresApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D27CEEF33585C8BB2BBE887 /* Pods_WheresApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16C751CBA7FA9B6796F555B1 /* Pods-WheresApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheresApp.release.xcconfig"; path = "Target Support Files/Pods-WheresApp/Pods-WheresApp.release.xcconfig"; sourceTree = "<group>"; };
+		632DFAF12A238CDD0082AF9B /* CardsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListView.swift; sourceTree = "<group>"; };
+		632DFAF32A24B0BA0082AF9B /* ReceiptsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptsListView.swift; sourceTree = "<group>"; };
+		632DFAF52A24DB9B0082AF9B /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		632DFAF62A24DB9B0082AF9B /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		633A39C22A2551ED0082DBEF /* Chrono.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chrono.swift; sourceTree = "<group>"; };
+		633A39C42A2551ED0082DBEF /* chrono.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = chrono.min.js; sourceTree = "<group>"; };
+		633A39C52A2551ED0082DBEF /* ChronoParsedResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronoParsedResult.swift; sourceTree = "<group>"; };
+		63AE475F29C23A2A00068E72 /* WheresApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheresApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63AE476229C23A2A00068E72 /* WheresAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheresAppApp.swift; sourceTree = "<group>"; };
+		63AE476429C23A2A00068E72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63AE476629C23A2C00068E72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63AE476929C23A2C00068E72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63AE476B29C23A2D00068E72 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		63AE476E29C23A2D00068E72 /* WheresApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WheresApp.xcdatamodel; sourceTree = "<group>"; };
+		63AE478229C2558500068E72 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		63AE478429C271D000068E72 /* TaskAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAddView.swift; sourceTree = "<group>"; };
+		63E36D7929CC0235007A4AD3 /* LocationDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataManager.swift; sourceTree = "<group>"; };
+		63E36D8B29CC312D007A4AD3 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		6D27CEEF33585C8BB2BBE887 /* Pods_WheresApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WheresApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B531EDD7CEFD1F2B9899F267 /* Pods-WheresApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WheresApp.debug.xcconfig"; path = "Target Support Files/Pods-WheresApp/Pods-WheresApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63AE475C29C23A2A00068E72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632A9D3D2A17F5DC00E7A594 /* CreditCardScanner in Frameworks */,
+				FC0035A5AE91A1D892809614 /* Pods_WheresApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63AE475629C23A2A00068E72 = {
+			isa = PBXGroup;
+			children = (
+				63AE476129C23A2A00068E72 /* WheresApp */,
+				63AE476029C23A2A00068E72 /* Products */,
+				9B3A85229670F0EA5972330E /* Pods */,
+				A7F3BC510B2B1EDA6712B6B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63AE476029C23A2A00068E72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63AE475F29C23A2A00068E72 /* WheresApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63AE476129C23A2A00068E72 /* WheresApp */ = {
+			isa = PBXGroup;
+			children = (
+				633A39C22A2551ED0082DBEF /* Chrono.swift */,
+				633A39C42A2551ED0082DBEF /* chrono.min.js */,
+				633A39C52A2551ED0082DBEF /* ChronoParsedResult.swift */,
+				63AE476229C23A2A00068E72 /* WheresAppApp.swift */,
+				63E36D8B29CC312D007A4AD3 /* ViewRouter.swift */,
+				63AE477929C24E9E00068E72 /* Models */,
+				63AE478629C271DF00068E72 /* Views */,
+				63AE476629C23A2C00068E72 /* Assets.xcassets */,
+				63E36D7929CC0235007A4AD3 /* LocationDataManager.swift */,
+				63AE476B29C23A2D00068E72 /* Persistence.swift */,
+				63AE476D29C23A2D00068E72 /* WheresApp.xcdatamodeld */,
+				63AE476829C23A2C00068E72 /* Preview Content */,
+			);
+			path = WheresApp;
+			sourceTree = "<group>";
+		};
+		63AE476829C23A2C00068E72 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63AE476929C23A2C00068E72 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63AE477929C24E9E00068E72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				632DFAF52A24DB9B0082AF9B /* Item+CoreDataClass.swift */,
+				632DFAF62A24DB9B0082AF9B /* Item+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		63AE478629C271DF00068E72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63AE478229C2558500068E72 /* ItemListView.swift */,
+				63AE478429C271D000068E72 /* TaskAddView.swift */,
+				63AE476429C23A2A00068E72 /* ContentView.swift */,
+				632DFAF32A24B0BA0082AF9B /* ReceiptsListView.swift */,
+				632DFAF12A238CDD0082AF9B /* CardsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9B3A85229670F0EA5972330E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B531EDD7CEFD1F2B9899F267 /* Pods-WheresApp.debug.xcconfig */,
+				16C751CBA7FA9B6796F555B1 /* Pods-WheresApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A7F3BC510B2B1EDA6712B6B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D27CEEF33585C8BB2BBE887 /* Pods_WheresApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63AE475E29C23A2A00068E72 /* WheresApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63AE477229C23A2D00068E72 /* Build configuration list for PBXNativeTarget "WheresApp" */;
+			buildPhases = (
+				1E3F8462B2255B21FB5EE6E9 /* [CP] Check Pods Manifest.lock */,
+				63AE475B29C23A2A00068E72 /* Sources */,
+				63AE475C29C23A2A00068E72 /* Frameworks */,
+				63AE475D29C23A2A00068E72 /* Resources */,
+				20E4F8E2B339B9373526747C /* [CP] Embed Pods Frameworks */,
+				04D4BD5BBD9959089B3DCBC8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WheresApp;
+			packageProductDependencies = (
+				632A9D3C2A17F5DC00E7A594 /* CreditCardScanner */,
+			);
+			productName = WheresApp;
+			productReference = 63AE475F29C23A2A00068E72 /* WheresApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63AE475729C23A2A00068E72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					63AE475E29C23A2A00068E72 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 63AE475A29C23A2A00068E72 /* Build configuration list for PBXProject "WheresApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63AE475629C23A2A00068E72;
+			packageReferences = (
+				632A9D3B2A17F5DC00E7A594 /* XCRemoteSwiftPackageReference "credit-card-scanner" */,
+			);
+			productRefGroup = 63AE476029C23A2A00068E72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63AE475E29C23A2A00068E72 /* WheresApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63AE475D29C23A2A00068E72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AE476A29C23A2C00068E72 /* Preview Assets.xcassets in Resources */,
+				63AE476729C23A2C00068E72 /* Assets.xcassets in Resources */,
+				633A39C82A2552D00082DBEF /* chrono.min.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04D4BD5BBD9959089B3DCBC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WheresApp/Pods-WheresApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WheresApp/Pods-WheresApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WheresApp/Pods-WheresApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E3F8462B2255B21FB5EE6E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WheresApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20E4F8E2B339B9373526747C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WheresApp/Pods-WheresApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WheresApp/Pods-WheresApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WheresApp/Pods-WheresApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63AE475B29C23A2A00068E72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633A39C72A2551EE0082DBEF /* Chrono.swift in Sources */,
+				633A39C62A2551EE0082DBEF /* ChronoParsedResult.swift in Sources */,
+				63AE476C29C23A2D00068E72 /* Persistence.swift in Sources */,
+				63AE478529C271D000068E72 /* TaskAddView.swift in Sources */,
+				63AE476F29C23A2D00068E72 /* WheresApp.xcdatamodeld in Sources */,
+				632DFAF22A238CDD0082AF9B /* CardsListView.swift in Sources */,
+				63AE476529C23A2A00068E72 /* ContentView.swift in Sources */,
+				632DFAF72A24DB9B0082AF9B /* Item+CoreDataClass.swift in Sources */,
+				632DFAF82A24DB9B0082AF9B /* Item+CoreDataProperties.swift in Sources */,
+				632DFAF42A24B0BA0082AF9B /* ReceiptsListView.swift in Sources */,
+				63AE476329C23A2A00068E72 /* WheresAppApp.swift in Sources */,
+				63E36D8C29CC312D007A4AD3 /* ViewRouter.swift in Sources */,
+				63E36D7A29CC0235007A4AD3 /* LocationDataManager.swift in Sources */,
+				63AE478329C2558500068E72 /* ItemListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63AE477029C23A2D00068E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63AE477129C23A2D00068E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63AE477329C23A2D00068E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B531EDD7CEFD1F2B9899F267 /* Pods-WheresApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WheresApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6G9CKHBFKF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "WheresApp needs to access your camera to capture the items";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "WheresApp needs to use Face ID to unlock credit card information";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "WheresApp needs to access your location to know the location of your objects.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "WheresApp needs to access your location to know the location of your objects.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "WheresApp needs to access your location to know the location of your objects.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comp.testing.WheresApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63AE477429C23A2D00068E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C751CBA7FA9B6796F555B1 /* Pods-WheresApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WheresApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6G9CKHBFKF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "WheresApp needs to access your camera to capture the items";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "WheresApp needs to use Face ID to unlock credit card information";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "WheresApp needs to access your location to know the location of your objects.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "WheresApp needs to access your location to know the location of your objects.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "WheresApp needs to access your location to know the location of your objects.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = comp.testing.WheresApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63AE475A29C23A2A00068E72 /* Build configuration list for PBXProject "WheresApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63AE477029C23A2D00068E72 /* Debug */,
+				63AE477129C23A2D00068E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63AE477229C23A2D00068E72 /* Build configuration list for PBXNativeTarget "WheresApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63AE477329C23A2D00068E72 /* Debug */,
+				63AE477429C23A2D00068E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		632A9D3B2A17F5DC00E7A594 /* XCRemoteSwiftPackageReference "credit-card-scanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yhkaplan/credit-card-scanner.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		632A9D3C2A17F5DC00E7A594 /* CreditCardScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 632A9D3B2A17F5DC00E7A594 /* XCRemoteSwiftPackageReference "credit-card-scanner" */;
+			productName = CreditCardScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		63AE476D29C23A2D00068E72 /* WheresApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				63AE476E29C23A2D00068E72 /* WheresApp.xcdatamodel */,
+			);
+			currentVersion = 63AE476E29C23A2D00068E72 /* WheresApp.xcdatamodel */;
+			path = WheresApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 63AE475729C23A2A00068E72 /* Project object */;
+}
